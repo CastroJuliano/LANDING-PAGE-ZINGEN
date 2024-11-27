@@ -13,18 +13,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Mama me olhando</h1>
-        </div>
-        <a>Lorem iasum dolor, sit amet consectetur adipisicing elit. Ullam quisquam beatae nihil deserunt fuga labore eius
-        autem numquam iure quis ex, sed illo id suscipit praesentium repudiandae voluptatem libero doloremque.</a>
+    <div class="flex gap-1">
+        <a href="#" class="btn btn-sm" >Label</a>
+        <span href="#" class="btn btn-md">Label</span>
+        <button href="#" class="btn btn-lg">Label</button>
+    </div>
 
-    </header>
-    <div>
-        <h2>Mama me olhando</h2>
-        <a>Lorem iasum dolor, sit amet consectetur adipisicing elit. Ullam quisquam beatae nihil deserunt fuga labore eius
-             autem numquam iure quis ex, sed illo id suscipit praesentium repudiandae voluptatem libero doloremque.</a>
+    <div class="flex gap-1">
+        <a 
+            aria-label="Label"
+            href="#" class="btn btn-sm" >
+        </a>
+        <span 
+            aria-label="Label"
+            href="#" class="btn btn-md">
+        </span>
+        <button 
+            aria-label="Label"
+            href="#" class="btn btn-lg">
+        </button>
     </div>
 </body>
 </html>
